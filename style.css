@@ -1,0 +1,48 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+
+p {
+    background-color: aqua;
+    color: rgb(245, 101, 17);
+    margin:16px ;
+}
+
+ul {
+    /* list-style-type: upper-roman; */
+    list-style: square inside url(./assets/Icons/User.png);
+}
+body{
+    background: url(./images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg);
+    object-fit: scale-down;
+}
+#CodinglessonsID{
+   /* background-color:rgb(233, 91, 233) ; */
+   background-color: aquamarine;
+}
+
+#CodinglessonsID li {
+    background-color: rgb(247, 182, 182);
+    padding: 8px;
+    margin: 8px;
+}
+
+.mainContainer {
+    background: none ;
+}
+.containerTitle{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.iconImg{
+    width: 100px;
+    height: 100px;
+}
+.subject{
+    font-weight: lighter;
+}
+
+.container {
+    text-align: center;
+}
