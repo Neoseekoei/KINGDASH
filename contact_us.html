@@ -4,6 +4,7 @@
 <body>
 
     <head>
+        <link rel="stylesheet" href="./style.css">
         <div style="background-color: rgb(241, 186, 32);">
             <table style="width: 100%;">
                 <tr>
@@ -26,18 +27,21 @@
 
     </head>
 
-    <main style="height: 119vh; background-color: rgb(168, 168, 168);">
-        <img src="./assets/Images/1000_F_388298845_T1URO6DKys4Aj8abLDRua2ZH72FJ7pMQ.jpg" style="width: 100%;" alt="style="padding-left: 50vh; padding-top: 50px>
+   <!--<main style="height: 119vh; background-color: rgb(168, 168, 168);">-->
+       <!-- <img src="./assets/Images/1000_F_388298845_T1URO6DKys4Aj8abLDRua2ZH72FJ7pMQ.jpg" style="width: 100%;" alt="style="padding-left: 50vh; padding-top: 50px> -->
         <div class="container">
-            <form class="form_c">
+            <form class="form_c" action="https://formspree.io/f/xqkoqldk" method="post">
                 <h2 style="text-align: center;">_</h2>
           
-              <label for="text" style="padding: 10px; display: inline-block;">_</label>
+              <label for="text" style="padding: 10px; display: inline-block;">Your Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
           
               <label for="text" style="padding: 10px; display: inline-block;">Last Name</label>
               <input type="text" id="lastname" name="lastname" placeholder="Your last name.."><br>
           
+              <label for="text" style="padding: 10px; display: inline-block;">Email</label>
+              <input type="text" id="lastname" name="lastname" placeholder="email.."><br>
+
               <label for="text" style="padding: 10px; display: inline-block;">Country</label>
               <select id="country" name="country">
                 <option value="australia">South Africa</option>
@@ -49,8 +53,34 @@
           
               <input type="submit" value="Submit">
           
+          
+      <script>
+        console.log(new Date())
+       // alert(new Date());
+
+        function thumbsUp() {
+         document.getElementById('myImg').src ="./images/like.png";
+        }
+        function thumbsDown() {
+          document.getElementById('myImg').src ="./images/thumb-down.png";
+        }
+          
+            
+         </script>
+       </head>
+   
+       <body>
+         <div class="mainContainer">
+             <img src="./images/like.png" id="myImg" alt="">
+   
+             <div>
+               <button style="background-color: green;" onclick="thumbsUp()">ThumbsUp</button>
+               <button style="background-color: red;" onclick="thumbsDown()">ThumbsDown</button>
+             </div>
+         </div>
             </form>
           </div>
+          <head>
     </main>
 </body>
 
